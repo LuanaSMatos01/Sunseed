@@ -211,8 +211,8 @@ ul {
 }
 .home-title {
     font-family: 'Playfair Display', serif;
-    font-size: 3rem;
-    margin-bottom: 4rem;
+    font-size: 3.5vw;
+    margin-bottom: 3rem;
 }
 .home-text h1 {
     font-weight: 700;
@@ -262,7 +262,7 @@ ul {
 .home-text p {
     text-align: left;
     color: #ffffff;
-    font-size: 1.4rem;
+    font-size: 1.7vw;
     line-height: 1.8;
     margin-bottom: 40px;
 }
@@ -399,7 +399,7 @@ transition:all 500ms linear;
   background-size: cover;
 }
 .brand5{
-  background-image: url(../img/Energia\ solar.jpg);
+  background-image: url(../img/Energia_solar.jpg);
   background-size: cover;
 }
 
@@ -447,8 +447,8 @@ transition:all 500ms linear;
 .slide-content{
   display: block;
   width: 720px;
-  margin-top: 10%;
-  margin-left: 3%;
+  padding-top: 10%;
+  padding-left: 3%;
 }
 @media (max-width: 980px)  {
   .slide-content{
@@ -512,6 +512,21 @@ transition:all 500ms linear;
       font-size: 95%;
       margin-top: 7%;
       margin-bottom: 7%;
+  }
+}
+@media (max-width: 441px) {
+  .slide-content h2 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 375px) {
+  .slide-content h2 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 306px) {
+  .slide-content h2 {
+    font-size: 1.8rem;
   }
 }
 
