@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Luana Matos">
+    <meta name="description" content="Sustainability website">
+    <title>SunSeed</title>
+    <link rel="icon" href="img/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <meta name="theme-color" content="#2f382f">
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <a href="#" class="logo">SUNSEED</a>
+
+            <ul class="navlist">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#content">Conteúdo</a></li>
+                <li><a href="#about">Sobre nós</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+
+            <div class="menu" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+              <script>
+                function myFunction(x) {
+                  x.classList.toggle("change");
+                }
+                </script>
+
+            <div class="dropdown">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#content">Content</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </div>
+            <script>
+                const menu = document.querySelector('.menu')
+                const dropdown = document.querySelector('.dropdown')
+
+                menu.addEventListener('click', () => {
+                    dropdown.classList.toggle('active');
+                })
+            </script>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <div class="home-title" id="home-title">
+                <h1><span class="highlight" id="highlight">Sustentabilidade</span></h1>
+                <h3>e Meio ambiente</h3>
+            </div>
+            <div class="home-p" id="home-p">
+                <p>Bem-vindo(a) ao SunSeed! Aqui, exploraremos maneiras práticas de preservar nosso planeta e promover um futuro mais sustentável. Descubra dicas para reduzir o consumo de recursos, adotar práticas ecologicamente corretas e envolver-se na conservação do meio ambiente. Vamos juntos embarcar nessa jornada de cuidado e responsabilidade para garantir um futuro saudável para as gerações vindouras.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content -->
+   <Section class="content" id="content">
+
+    <div class="container">
+        <div class="container-slides">
+            <ul class="slides">
+                <li class="slide active brand1">
+                    <a href="#" class="action"><span>Sustentabilidade</span></a>
+                    <div class="slide-content">
+                        <h2>Desenvolvimento sustentável</h2>
+                        <p>
+                            O desenvolvimento sustentável procura equilibrar a necessidade de crescimento econômico e social com a proteção do meio ambiente e dos recursos naturais. Isso é feito por meio da promoção de práticas e políticas que reduzem o impacto ambiental, garantem a justiça social e a equidade econômica, e incentivam o uso eficiente dos recursos naturais.
+                            <br><br>
+                            O desenvolvimento sustentável envolve a implementação de soluções inovadoras e tecnologias de baixo carbono, além de práticas de gestão ambiental e social responsáveis. Também inclui a promoção da participação cidadã na tomada de decisões e ações de desenvolvimento, bem como a adoção de práticas de consumo e produção sustentáveis.
+                            <br><br>
+                            De forma geral, o desenvolvimento sustentável busca uma transformação gradual das atividades humanas para um modelo mais consciente e responsável em relação ao meio ambiente e à sociedade, visando garantir um futuro mais justo e equitativo para todos.
+                            
+                        </p>
+                        <p>
+                        
+                        </p>
+                    </div>
+                </li>
+                <li class="slide brand2">
+                    <a href="#" class="action"><span>Reciclagem</span></a>
+                    <div class="slide-content">
+                        <h2>Reciclagem</h2>
+                        <p>
+                            A reciclagem é uma das práticas mais importantes para a promoção do desenvolvimento sustentável, pois ajuda a reduzir a quantidade de resíduos produzidos e a preservar os recursos naturais. A reciclagem consiste no processo de transformação de materiais usados em novos produtos, evitando que sejam descartados no meio ambiente e contribuindo para a conservação de recursos naturais.
+                            <br><br>
+                            Separe corretamente os resíduos em sua casa ou local de trabalho. Identifique os materiais recicláveis, como papel, plástico, vidro e metal, e coloque-os em recipientes ou sacos separados.
+                            <br><br>
+                            Além de reciclar, tente reduzir a quantidade de resíduos que você produz. Opte por produtos com menos embalagens, use sacolas reutilizáveis em vez de plásticas e evite o desperdício de alimentos.
+                            <br><br>
+                            Antes de descartar algo, considere se pode ser reutilizado de alguma forma. Por exemplo, você pode doar roupas, móveis ou eletrônicos em bom estado para instituições de caridade ou organizações de reciclagem.
+                        </p>
+                    </div>
+                </li>
+                <li class="slide brand3">
+                    <a href="#" class="action"><span>Cultivo</span></a>
+                    <div class="slide-content">
+                        <h2>Cultivo</h2>
+                        <p>
+                            Cultivar plantas é uma forma significativa de contribuir para o meio ambiente. Você pode começar escolhendo plantas que se adequem ao clima e às condições do solo da sua região.
+                            <br><br>
+                            Ao regar suas plantas, forneça água suficiente, mas evite o desperdício. Utilize fertilizantes naturais, como composto orgânico, para nutrir suas plantas e promover um crescimento saudável. Fique atento a possíveis pragas e doenças e adote métodos de controle orgânicos para minimizar os danos.
+                            <br><br>
+                            Cultivar plantas não apenas traz beleza e tranquilidade ao seu ambiente, mas também melhora a qualidade do ar, conserva o solo e promove a diversidade biológica. É uma atividade recompensadora que o conecta com a natureza e ajuda a criar um ambiente mais saudável para todos.
+                        </p>
+                    </div>
+                </li>
+                <li class="slide brand4">
+                    <a href="#" class="action"><span>Reutilização</span></a>
+                    <div class="slide-content">
+                        <h2>Reutilização</h2>
+                        <p>
+                            A reutilização da água é uma forma importante de contribuição para a conservação dos recursos hídricos e para a sustentabilidade ambiental. É uma prática essencial para conservar os recursos hídricos, reduzir o desperdício e promover a sustentabilidade ambiental em diferentes setores da sociedade.
+                            <br><br>
+                            A reutilização da água pode ser realizada de diferentes maneiras e em diferentes contextos. Por exemplo, em residências, podemos reutilizar a água da chuva, instalando sistemas de captação e armazenamento, para fins não potáveis, como irrigação de jardins, lavagem de pisos ou descargas sanitárias.
+                            <br><br>
+                            As sacolas reutilizáveis são uma opção sustentável para substituir as sacolas plásticas descartáveis. As sacolas plásticas são um dos principais poluentes do meio ambiente, pois são produzidas em grande quantidade, têm baixa biodegradabilidade e podem causar danos aos animais que as ingerem ou ficam presos nelas. Além disso, a produção de sacolas plásticas consome recursos naturais e gera emissões de gases de efeito estufa.
+                        </p>
+                    </div>
+                </li>
+                <li class="slide brand5">
+                    <a href="#" class="action"><span>Energia solar</span></a>
+                    <div class="slide-content">
+                        <h2>Energia solar</h2>
+                        <p>
+                            A energia solar é uma fonte limpa e renovável de energia que desempenha um papel fundamental na redução das emissões de gases de efeito estufa e na transição para um futuro mais sustentável. Existem várias maneiras pelas quais podemos contribuir com a energia solar:
+                            <br><br>
+                            Uma das formas mais diretas de contribuir com a energia solar é instalar painéis solares em sua casa ou propriedade. Isso permite que você produza sua própria energia limpa, reduzindo a dependência de fontes de energia tradicionais e diminuindo sua pegada de carbono.
+                            <br><br>
+                            Compartilhe informações sobre os benefícios da energia solar com amigos, familiares e comunidade. A conscientização sobre as vantagens da energia solar pode incentivar mais pessoas a considerar a transição para essa fonte de energia limpa.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- funcs javascript -->
+    <script>
+        $(document).ready(function(){
+
+// link action
+$(".action").click(function(e){
+    e.preventDefault();
+
+    $(".slide").removeClass("active");
+    var slide = $(this).closest(".slide");
+    slide.addClass("active");
+});
+
+});
+
+// checkWidth
+checkWidth = function(){
+var windowsize = $(window).width();
+if (windowsize > 480) {
+    var slideWidth = $('.active').width();
+    $('.slide-content').css({
+        "width" : slideWidth+"px"
+    });
+}
+
+}
+
+$(window).resize(function() {
+// onresize
+checkWidth();
+
+// finish resize
+clearTimeout(window.resizedFinished);
+window.resizedFinished = setTimeout( checkWidth , 500);
+});
+    </script>
+
+   </Section>
+      
+
+
+    <!-- About Us -->
+  <div id="about" class="about">
+        <div class="about-box">
+            <div class="left"></div>
+            <div class="right">
+                <h2>Sobre Nós</h2>
+                <div id="green-container">
+                    <div id="green-line"></div>
+                </div>
+                <p>Bem-vindo à nossa empresa dedicada à sustentabilidade e ao meio ambiente. Nós somos apaixonados por proteger e preservar os recursos naturais do nosso planeta.
+          Com uma equipe experiente e comprometida, trabalhamos para promover práticas sustentáveis em todos os aspectos do nosso negócio. 
+          Acreditamos que é possível conciliar o crescimento econômico com a responsabilidade ambiental.
+          Nosso objetivo é liderar pelo exemplo, implementando medidas para reduzir nossa pegada de carbono, minimizar o desperdício e promover a conscientização ambiental em nossa comunidade.
+          Estamos empenhados em buscar constantemente soluções inovadoras e sustentáveis para enfrentar os desafios ambientais de hoje e construir um futuro melhor para todos.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container-contact" id="container-contact">
+            
+            <div id="contact-form">
+                <h3>Mande uma mensagem!</h3>
+                <form action="">
+                    <div class="input-label">
+                        <input type="text" name="name" id="name" class="input" autocomplete="off" placeholder=" ">
+                        <label for="name">Nome</label>
+                    </div>
+                    <div class="input-label">
+                        <input type="email" name="email" id="email" class="input" autocomplete="off" placeholder=" ">
+                        <label for="email">E-mail</label>
+                    </div>
+                    <div class="input-label">
+                        <textarea name="text" id="text" cols="30" rows="10" class="input" autocomplete="off" placeholder=" "></textarea>
+                        <label for="text" id="msg">Mensagem</label>
+                    </div>
+                    <div id="sub">
+                        <input type="submit" value="Enviar" id="submit">
+                    </div>
+                </form>
+            </div>  
+            <div id="v-line"></div>
+            <div id="contact-image">
+                <img src="img/contact_img.png" alt="flor" width="60vw" height="60vh">
+            </div>
+            
+        </div>
+    </section>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
